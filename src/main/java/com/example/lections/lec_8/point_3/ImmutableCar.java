@@ -30,7 +30,8 @@ public final class ImmutableCar {
     }
 
     public int[] getSeats() {
-        return seats;
+        int[] clone = seats.clone();
+        return clone;
     }
 
     @Override
