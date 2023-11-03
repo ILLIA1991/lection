@@ -20,5 +20,14 @@ public class ImmutableExample {
         seats[1] = 777;
         System.out.println(kiaRio);
         System.out.println(Arrays.toString(seats));
+
+
+
+        CarRecord carRecord = new CarRecord("Mercedes", "s500", EngineType.PETROL, new int[] {1, 2, 3, 4, 5});
+        CarRecord carRecord1 = new CarRecord("Mercedes", "s500", EngineType.PETROL, new int[]{1, 2, 3, 4, 5});
+
+        System.out.println("Equal record " + carRecord.equals(carRecord1));
+
+
     }
 }
