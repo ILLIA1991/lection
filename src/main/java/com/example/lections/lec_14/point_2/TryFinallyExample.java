@@ -6,6 +6,9 @@ import org.apache.commons.lang3.RandomUtils;
 import java.util.Arrays;
 
 public class TryFinallyExample {
+
+    // final - для классов, методов и полей
+    // finally - для блоков try
     public static void main(String[] args) {
         PhotoService photoService = new PhotoService();
         byte[] photo = RandomUtils.nextBytes(50);
