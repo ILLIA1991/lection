@@ -12,13 +12,16 @@ public class Arrays {
 
         for (int i = 0; i < ints.length; i++) {
             int myInt = ints[i]; //Достаем i-й элемент из массива
+
+            int sum = 0;
+            sum += myInt;
             System.out.printf(" Элемент %d массива: %d", i, myInt);
             System.out.println();
 
             int result = myInt/2;
             System.out.printf("Результат деления %d на 2: %d", myInt, result);
             System.out.println();
-
+            System.out.println("sum:" + sum);
 
         }
     }
