@@ -1,0 +1,24 @@
+Базовые классы Stream это InputStream, OutputStream, Reader, Writer.
+InputStream и OutputStream предназначены для работы с любыми данными
+InpurStream - читает по одному байту
+OutputStream - записывает по одному байту
+InputStream                                OutputStream
+    |                                          |
+FileInputStream                          FileInputStream
+   |
+BufferedInputStream
+    |
+ByteArrayInputStream
+    |
+FilterInputStream
+    |
+ObjectInputStream
+
+
+Reader и Writer работают с текстовыми файлами
+
+
+
+
+
+
